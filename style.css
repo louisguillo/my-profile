@@ -1,0 +1,98 @@
+body {
+	background-image: url("etoile.jpg");
+	color: black;
+	font-family: Times,serif;
+	font-size: 20px;
+}
+h1, h2 {
+	font-family:;
+	color: black;
+	font-weight: lighter;
+}
+h1 {
+	font-size: 35px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: underline;
+	color: black;
+}
+a:hover {
+	color: #A9E4EF;
+}
+
+div {
+	background: #A9E4EF;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 20px;
+	box-shadow: 0 15px 35px rgba(50,50,93,.1);
+	text-align: center;
+}
+#photo {
+	width: 200px;
+}
+
+.text-justify {
+	text-align: justify;
+	text-align: center;
+ }
+
+ #banner {
+ 	background-image: url("banner.JPG");
+ 	background-size: cover;
+ 	object-fit: cover;
+ }
+ #jul {
+ 	background-image: url("jul.JPG");
+ 	background-size: 1000px;
+ 	object-fit: cover;
+ }
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.shadowed {
+	box-shadow: 5px 5px 3px #CBA135;
+}
+
+.btn-blue {
+	background-color: #CBA135;
+	color: black;
+	padding: 20px 50px;
+	border-radius: 4px;
+}
+
+.btn-green {
+	background-color: black;
+	color: #CBA135;
+	border-radius: 4px;
+	margin: 20px 400px;
+}
+.btn-red {
+	background-color: #CBA135;
+	color: black;
+	border-radius: 4px;
+	margin: 20px 400px;
+}
+
+.container {
+	margin: 70px;
+	background-color: #CBA135;
+	box-shadow: 5px 5px 50px #A9E4EF;
+}
+.card-white {
+	margin: 50px;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 5px 5px 3px black;
+}
